@@ -1,0 +1,241 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.section1 {
+  background-image: url("images/sec1-bg.png");
+  width: 1440px;
+  height: 773px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px;
+  width: 1440px;
+  position: absolute;
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+.text1 {
+  font-size: 20px;
+  color: white;
+}
+.letter1 {
+  font-size: 80px;
+  color: white;
+  justify-content: center;
+  display: flex;
+  padding-top: 150px;
+}
+.letter2 {
+  font-size: 200px;
+  color: white;
+  padding-top: 70px;
+}
+.date {
+  font-size: 20px;
+  color: white;
+  justify-content: center;
+  display: flex;
+  padding-top: 50px;
+}
+.section2 {
+  background-image: url("images/sec2-bg.png");
+  width: 1440px;
+  height: 512px;
+  justify-content: center;
+}
+.card {
+  width: 275px;
+  height: 370px;
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow:
+    -8px -8px 0 0 rgba(31, 114, 170, 0.25),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#card-1 {
+  background-image: url("images/sec2-location1.png");
+}
+#card-2 {
+  background-image: url("images/sec2-location2.png");
+}
+#card-3 {
+  background-image: url("images/sec2-location3.png");
+}
+#card-4 {
+  background-image: url("images/sec2-location4.png");
+}
+.section3 {
+  background-image: url("images/sec3-bg.png");
+  width: 1440px;
+  height: 1022px;
+  padding: 30px;
+}
+.header1 {
+  width: 1440px;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.l1 {
+  width: 513px;
+  height: 112px;
+  background-color: beige;
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.l2 {
+  width: 513px;
+  height: 112px;
+  background-color: aquamarine;
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.l3 {
+  width: 513px;
+  height: 112px;
+  background-color: rgb(152, 183, 172);
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.l4 {
+  width: 513px;
+  height: 112px;
+  background-color: rgb(177, 222, 206);
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.l4 {
+  width: 513px;
+  height: 112px;
+  background-color: rgb(111, 172, 172);
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.l5 {
+  width: 513px;
+  height: 112px;
+  background-color: rgb(146, 208, 208);
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.all-text {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.day {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: white;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section4 {
+  background-image: url("images/sec4-bg.png");
+  width: 1440px;
+  height: 1120px;
+}
+.last-header {
+  width: 1440px;
+  height: 204px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.last-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  align-content: center;
+  padding: 40px;
+}
+.box {
+  width: 384px;
+  height: 512px;
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.box h5 {
+  color: rgb(129, 123, 123);
+}
+.box p {
+  font-size: 14px;
+}
+.box h4 {
+  font-size: 18px;
+}
+.Package {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+.select-package {
+  width: 336px;
+  height: 48px;
+  background-color: #a4d1e2;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  align-items: center;
+}
+.icon-check {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.social {
+  width: 167px;
+  height: 44px;
+  background-color: white;
+  border-radius: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  align-content: center;
+}
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  align-content: center;
+}

@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.hero {
+  background-image: url("/images/sec1-bg.png");
+  width: 1440px;
+  height: 773px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-text1 {
+  font-size: 80px;
+  color: white;
+}
+.hero-text2 {
+  font-size: 200px;
+  color: white;
+}
+.date {
+  font-size: 20px;
+  color: white;
+}
+.text1 {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.text {
+  font-size: 20px;
+  color: white;
+  justify-content: center;
+}
+.header {
+  display: flex;
+  gap: 50px;
+}

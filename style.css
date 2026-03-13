@@ -1,0 +1,21 @@
+/* css selector */
+/* tag name */
+h3 {
+  color: red;
+  width: 500px;
+  height: 30px;
+}
+p {
+  color: rgb(rgb(220, 214, 214), green, blue);
+  width: 500px;
+  height: 10pc;
+  background-color: beige;
+  width: 500px;
+  height: 200px;
+  border-radius: 20px;
+}
+img {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+}
