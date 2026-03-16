@@ -36,19 +36,22 @@
   color: white;
   justify-content: center;
   display: flex;
-  padding-top: 150px;
+  padding-top: 200px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .letter2 {
   font-size: 200px;
   color: white;
   padding-top: 70px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .date {
   font-size: 20px;
   color: white;
   justify-content: center;
   display: flex;
-  padding-top: 50px;
+  padding-top: 64px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .section2 {
   background-image: url("images/sec2-bg.png");
@@ -228,9 +231,13 @@
   color: rgb(62, 62, 116);
   gap: 10px;
 }
+.social-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
 .footer {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
   gap: 30px;
   align-content: center;
@@ -295,4 +302,14 @@
 }
 .l5:hover .location5 {
   display: block;
+}
+.card:hover {
+  border: 2px solid white;
+}
+.box:hover {
+  border: 2px solid white;
+}
+.box:hover .select-package {
+  border: 2px solid white;
+  background-color: blue;
 }
